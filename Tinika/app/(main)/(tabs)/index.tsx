@@ -8,7 +8,7 @@ export default function MainTabScreen() {
 
   return (
     <ChannelList
-      onSelect={(channel) => router.push(`./channel/${channel.cid}`)}
+      onSelect={(channel) => router.push(`/channel/${channel.cid}`)}
     />
   );
 }

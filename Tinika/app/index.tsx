@@ -3,6 +3,6 @@ import { Text, View } from "react-native";
 
 export default function HomeScreen() {
   return (
-    <Redirect href={'./(authentication)/login'} />
+    <Redirect href={'/(authentication)/login'} />
   );
 }
